@@ -1,0 +1,23 @@
+* {
+    cursor: url('/Images/goldenPickaxe.cur'), auto;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.particle{
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-image: url("/Images/particle.png");
+    background-size: cover;
+}
+
+@keyframes shrinking-spinning{
+    to{
+        transform: scale(0) rotate(360deg);
+    }
+}
+
